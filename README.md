@@ -1,8 +1,43 @@
-# SaaS Subscription Engine (Laravel)
+<p align="center">
+  <h1 align="center">SaaS Subscription Engine</h1>
+  <p align="center">
+    Production-style Laravel SaaS starter with subscription-ready architecture.
+  </p>
+</p>
 
-A production-style Laravel starter template for building subscription-based SaaS applications.
 
----
+## Screenshots
+
+### Home
+![Home](screenshots/01-home.png)
+
+### Dashboard
+![Dashboard](screenshots/02-dashboard.png)
+
+### Plans
+![Plans](screenshots/03-plans.png)
+
+
+
+
+
+## 🚀 Live Features Demonstrated
+
+- Secure authentication (Laravel Breeze)
+- Dynamic pricing plans system
+- Subscription-ready architecture
+- Stripe-ready billing structure (Laravel Cashier)
+- Clean service-based architecture
+
+## 🧠 Architecture Overview
+
+This project follows a scalable SaaS architecture pattern:
+
+- Controllers handle HTTP layer
+- Business logic prepared for service layer separation
+- Subscription lifecycle designed for Stripe integration
+- Environment-based DB configuration (SQLite dev / MySQL prod)
+
 
 ## 🚀 Features
 
